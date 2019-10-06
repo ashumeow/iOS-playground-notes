@@ -1,0 +1,33 @@
+import UIKit
+
+var age:Int=20
+var onGuestList=false
+var guest : String=""
+
+if age > 21 {
+    onGuestList=true
+    guest="allowed"
+} else {
+    onGuestList=false
+    guest="not allowed"
+}
+
+func admit(person: String) {
+    print("welcome to the party")
+}
+
+func deny(person: String) {
+    print("sorry! you're too young to enter this party")
+}
+
+func screenUnder21(age: Int, onGuestList: Bool, person: String) {
+  if onGuestList && age >= 21 {
+    admit(person: person)
+  }
+
+  if !onGuestList || !(age >= 21) {
+        deny(person: person)
+    }
+}
+
+print(screenUnder21(age:age, onGuestList:onGuestList, person: guest))
