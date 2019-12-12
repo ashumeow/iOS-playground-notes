@@ -176,3 +176,13 @@ currentYear = 2017
 age = currentYear - birthYear
 print(age)
 ```
+
+P12:
+```swift
+func placeFirstLetterLast(_ myString: String) -> String {
+    var myString = myString
+    myString.append(firstCharacter(of: myString))
+    myString.remove(at: myString.startIndex)
+    return myString
+}
+```
