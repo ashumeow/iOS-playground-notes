@@ -186,3 +186,12 @@ func placeFirstLetterLast(_ myString: String) -> String {
     return myString
 }
 ```
+
+P13:
+```swift
+func shortNameForName(name: String) -> String {
+    let lowercaseName = name.lowercased()
+    let vowelSet = CharacterSet(charactersIn: "aeiou")
+    // ...
+}
+```
