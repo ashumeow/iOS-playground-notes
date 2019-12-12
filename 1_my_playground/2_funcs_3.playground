@@ -1,0 +1,17 @@
+import UIKit
+
+// print
+print("I am a global function")
+
+// min
+var initialPrice : Int = 50
+var bestPrice : Int = 45
+var finalPrice = min(initialPrice, bestPrice)
+print (finalPrice)
+
+// max
+var maxPrice = max(initialPrice, bestPrice)
+
+// abs
+let randomVal = -5
+abs(randomVal)
