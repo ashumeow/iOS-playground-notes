@@ -195,3 +195,5 @@ func shortNameForName(name: String) -> String {
     // ...
 }
 ```
+
+Notes taken during <a href="https://www.udacity.com/course/swift-for-developers--ud1025">Udacity course - swift for developers</a>
